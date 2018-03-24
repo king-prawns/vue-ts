@@ -37,5 +37,7 @@ $ yarn httpserver
 - [x] Webpack 4
 - [x] TypeScript
 - [x] Vue
+- [x] Vue Router
 - [ ] RxJS
 - [ ] Redux?
+- [ ] SFS-
