@@ -65,6 +65,8 @@
   "dependencies": {
     "@webcomponents/webcomponentsjs": "1.1.1",
     "vue": "2.5.16",
-    "vue-router": "3.0.1"
+    "vue-router": "3.0.1",
+    "vuex": "3.0.1",
+    "vuex-typex": "3.0.1"
   }
 }

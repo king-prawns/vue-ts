@@ -38,6 +38,6 @@ $ yarn httpserver
 - [x] TypeScript
 - [x] Vue
 - [x] Vue Router
+- [x] Vuex
 - [ ] RxJS
-- [ ] Redux?
 - [ ] SFS-
