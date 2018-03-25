@@ -2,6 +2,7 @@
 import { RootState } from '../../store';
 import { ActionContext } from 'vuex';
 import { getStoreBuilder } from 'vuex-typex';
+import { sum, sub } from '../../lib/maths';
 
 const initialEnthusiasmState: EnthusiasmState = { items: [], count: 3 };
 const b = getStoreBuilder<RootState>().module('enthusiasm', initialEnthusiasmState);
@@ -28,12 +29,12 @@ function appendItem(state: EnthusiasmState, payload: { productId: string, quanti
 
 // mutations
 function increment(state: EnthusiasmState) {
-  state.count = state.count + 1;
+  state.count = sum(state.count, 1);
 }
 
 // mutations
 function decrement(state: EnthusiasmState) {
-  state.count = state.count - 1;
+  state.count = sub(state.count, 1);
 }
 
 // action

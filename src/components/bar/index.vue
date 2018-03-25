@@ -9,7 +9,6 @@
 <script lang="ts">
 import Vue from 'vue';
 import enthusiasm from '../../lib/enthusiasm/index';
-import { sum, sub } from '../../lib/maths';
 
 export default Vue.component('bar-comp', {
   methods: {
