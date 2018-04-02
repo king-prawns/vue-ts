@@ -1,12 +1,12 @@
 {
-  "name": "vue-ts-rxjs",
+  "name": "vue-ts",
   "version": "1.0.0",
   "short_name": "vtr",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFF",
   "orientation": "portrait-primary",
-  "description": "Vue, TypeScript and RxJS",
+  "description": "Vue and TypeScript",
   "theme_color": "#ffd1dc",
   "icons": [
     {

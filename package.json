@@ -1,7 +1,7 @@
 {
-  "name": "vue-ts-rxjs",
+  "name": "vue-ts",
   "version": "1.0.0",
-  "description": "Vue, TypeScript and RxJS",
+  "description": "Vue and TypeScript",
   "main": "./src/index.ts",
   "scripts": {
     "postinstall": "yarn run build",
@@ -64,7 +64,6 @@
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "1.1.1",
-    "rxjs": "5.5.7",
     "vue": "2.5.16",
     "vue-router": "3.0.1",
     "vuex": "3.0.1",

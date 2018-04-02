@@ -1,6 +1,6 @@
-# vue-ts-rxjs
+# vue-ts
 
-Vue, TypeScript and RxJS.
+Vue and TypeScript.
 
 ## Requirements
 
@@ -32,12 +32,11 @@ $ yarn httpserver
 
 ```
 
-## TODO
+## Features
 
 - [x] Webpack 4
 - [x] TypeScript
 - [x] Vue
 - [x] Vue Router
 - [x] Vuex
-- [ ] RxJS
-- [ ] SFS-
+- [x] Ava
