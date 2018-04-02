@@ -35,8 +35,8 @@ $ yarn httpserver
 ## Features
 
 - [x] Webpack 4
-- [x] TypeScript
 - [x] Vue
+- [x] TypeScript
 - [x] Vue Router
 - [x] Vuex
 - [x] Ava
